@@ -1,0 +1,1 @@
+# Grow and Go\n\nExplore positivity journal prompts in a playful card format.\n\n- `npm install`\n- `npm start` for local dev\n- `npm run deploy` to publish to GitHub Pages
