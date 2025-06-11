@@ -145,7 +145,7 @@ const App = () => {
 
   // Load CSV file from public folder on mount
   useEffect(() => {
-    fetch("/yourfile.csv")
+    fetch("/cards.csv")
       .then((res) => {
         if (!res.ok) throw new Error("CSV file not found");
         return res.text();
